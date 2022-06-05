@@ -9,7 +9,7 @@
 // // must return 0
 // cakes({apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, {sugar: 500, flour: 2000, milk: 2000}); 
 
-function cakes(recipe, available) {
+function cakes(recipe, available) { 
     let result;
     for (let i in recipe) {
         if (available[i]) {
